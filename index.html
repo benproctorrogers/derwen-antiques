@@ -19,7 +19,7 @@
             <h2 id="notification">Notification</h2>
             <p>Notification content</p>
         </div>
-        <div role="alert" aria-labelledby="alert">
+        <div role="alert" aria-labelledby="alert" id="alert-bounding-box">
             <h2 id="alert">Alert</h2>
             <p>Alert content</p>
         </div>
@@ -31,5 +31,10 @@
         <h2>Content block 3</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur feugiat diam vel turpis ornare, vel pellentesque lorem egestas. Sed suscipit id tortor id posuere. Fusce laoreet et ex nec lobortis. Maecenas ac accumsan turpis. Suspendisse placerat quis augue ac luctus. Aenean facilisis mattis urna id interdum. Morbi viverra odio vehicula, pellentesque massa eu, sodales enim. Maecenas hendrerit justo non massa posuere, a maximus risus ornare.</p>
     </main>
+    <script>
+        window.onload = function() {
+          document.getElementById("alert-bounding-box").focus();
+        }
+        </script>
 </body>
 </html>
