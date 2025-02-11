@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Derwen Antiques</title>
-    <link rel="stylesheet" href="styles.css">
-    <script type = "text/javascript" src="javascript.js"></script>
+    <link rel="stylesheet" href="../styles.css">
+    <script type = "text/javascript" src="../javascript.js"></script>
 </head>
 <body>
     <nav id="topnav">
@@ -19,12 +19,18 @@
     <div role="region" aria-label="Notification">
         <h2 id="notification-heading">You have been notified</h2>
         <p>Notification content</p>
-        <button onclick="logHello()">Dismiss</button>
+        <button onclick="logHello()">
+            Dismiss
+            <span class="sr-only">notification</span>
+        </button>
     </div>
     <div role="region" aria-label="Alert">
         <h2 id="alert-heading">You have been notified</h2>
         <p>Notification content</p>
-        <button onclick="logHello()">Dismiss</button>
+        <button onclick="logHello()">
+            Dismiss
+            <span class="sr-only">alert</span>
+        </button>
     </div>
     <main>
         <h1>Contact Derwen Antiques</h1>
