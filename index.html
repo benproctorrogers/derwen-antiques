@@ -18,14 +18,14 @@
     </nav>
     <main>
         <div role="region" aria-label="Notification">
-            <h2>You have been notified</h2>
+            <h2 id="notification-heading">You have been notified</h2>
             <p>Notification content</p>
-            <button onclick="logHello()">Dismiss</button>
+            <button onclick="logHello()" aria-labelledby="notification-heading">Dismiss</button>
         </div>
         <div role="alert" aria-label="Success" id="alert-bounding-box" tabindex="0">
-            <h2>You have successfully added your details</h2>
+            <h2 id="alert-heading">You have successfully added your details</h2>
             <p>Success content</p>
-            <button onclick="logHello()">Dismiss</button>
+            <button onclick="logHello()" aria-labelledby="alert-heading">Dismiss</button>
         </div>
         <h1>Derwen Antiques</h1>
         <h2>Content block 1</h2>
