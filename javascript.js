@@ -15,5 +15,7 @@ function replaceAlert() {
         });
 
         alertBox.parentNode.replaceChild(nonFocusDiv, alertBox);
+
+        nonFocusDiv.focus();
     }
 }
