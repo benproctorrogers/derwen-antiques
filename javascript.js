@@ -18,6 +18,10 @@ function replaceAlertDiv() {
             nonFocusDiv.parentNode.removeChild(nonFocusDiv);
         });
 
+        nonFocusDiv.addEventListener('focusout', function() {
+            nonFocusSpan.parentNode.removeChild(nonFocusSpan);
+        });
+
         alertBox.parentNode.replaceChild(nonFocusDiv, alertBox);
 
         nonFocusDiv.focus();
@@ -42,6 +46,10 @@ function replaceAlertSpan() {
         nonFocusSpan.setAttribute("role", "presentation");
 
         nonFocusSpan.addEventListener('blur', function() {
+            nonFocusSpan.parentNode.removeChild(nonFocusSpan);
+        });
+
+        nonFocusSpan.addEventListener('focusout', function() {
             nonFocusSpan.parentNode.removeChild(nonFocusSpan);
         });
 
