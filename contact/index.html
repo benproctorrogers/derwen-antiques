@@ -24,10 +24,10 @@
             <span class="sr-only">notification</span>
         </button>
     </div>
-    <div role="region" aria-label="Alert">
+    <div role="region" aria-label="Alert" id="alert-box">
         <h2 id="alert-heading">You have been notified</h2>
         <p>Notification content</p>
-        <button onclick="logHello()" aria-describedby="alert-heading">
+        <button onclick="logHello()" onclick="replaceAlert()" aria-describedby="alert-heading">
             Dismiss
         </button>
     </div>
