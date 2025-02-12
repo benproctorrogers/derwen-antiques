@@ -19,3 +19,8 @@ function replaceAlert() {
         nonFocusDiv.focus();
     }
 }
+
+function multiFunction() {
+    logHello();
+    replaceAlert();
+}
