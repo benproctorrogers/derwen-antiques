@@ -35,6 +35,8 @@ function replaceAlertSpan() {
 
         nonFocusSpan.className = "sr-only";
 
+        nonFocusSpan.setAttribute("aria-label", "Alert dismissed successfully");
+
         nonFocusSpan.textContent = "Alert dismissed successfully";
 
         nonFocusSpan.setAttribute("role", "presentation");
