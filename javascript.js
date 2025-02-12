@@ -2,7 +2,7 @@ function logHello() {
     console.log("Hello world!");
 }
 
-function replaceAlert() {
+function replaceAlertDiv() {
     var alertBox = document.getElementById("alert-box");
 
     if(alertBox){
@@ -10,7 +10,7 @@ function replaceAlert() {
 
         nonFocusDiv.setAttribute("tabindex", "-1");
 
-        nonFocusDiv.setAttribute("aria-label", "Alert dismissed");
+        nonFocusDiv.setAttribute("aria-label", "Alert dismissed successfully");
 
         nonFocusDiv.addEventListener('blur', function() {
             nonFocusDiv.parentNode.removeChild(nonFocusDiv);
@@ -19,6 +19,29 @@ function replaceAlert() {
         alertBox.parentNode.replaceChild(nonFocusDiv, alertBox);
 
         nonFocusDiv.focus();
+    }
+}
+
+
+function replaceAlertSpan() {
+    var alertBox = document.getElementById("alert-again-box");
+
+    if(alertBox){
+        var nonFocusSpan = document.createElement("span");
+
+        nonFocusSpan.setAttribute("tabindex", "-1");
+
+        nonFocusSpan.className = "sr-only";
+
+        nonFocusSpan.textContent = "Alert dismissed successfully";
+
+        nonFocusSpan.addEventListener('blur', function() {
+            nonFocusSpan.parentNode.removeChild(nonFocusSpan);
+        });
+
+        alertBox.parentNode.replaceChild(nonFocusSpan, alertBox);
+
+        nonFocusSpan.focus();
     }
 }
 
