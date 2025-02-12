@@ -10,6 +10,8 @@ function replaceAlert() {
 
         nonFocusDiv.setAttribute("tabindex", "-1");
 
+        nonFocusDiv.setAttribute("aria-label", "Alert dismissed");
+
         nonFocusDiv.addEventListener('blur', function() {
             nonFocusDiv.parentNode.removeChild(nonFocusDiv);
         });
