@@ -18,8 +18,8 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-between; /* Centers the nav horizontally */
-    align-items: center;     /* Aligns items vertically (if needed) */
+    justify-content: space-between;
+    align-items: center;
     background-color: #262a2c;
     color: #e2c044;
     padding: 0 0 20px 0;
@@ -30,6 +30,7 @@ nav ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    width: 100%;
 }
 
 nav li {
@@ -47,7 +48,7 @@ nav a:hover {
 }
 
 main {
-    margin-left: 20px;
+    
 }
 
 /* Elements */
@@ -56,7 +57,6 @@ main {
     letter-spacing: 0.2rem;
     color: #e2c044;
     font-size: 2.5em;
-    margin-left: 20px;
 }
 
 /* Breakpoints */
@@ -67,6 +67,11 @@ main {
     header {
         text-align: center;
     }
+
+    body {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
   }
   
   /* Mobile (larger screens) */
@@ -75,19 +80,36 @@ main {
     header {
         text-align: center;
     }
+
+    body {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
   }
   
   /* Tablet (portrait and small laptops) */
   @media (min-width: 769px) and (max-width: 1024px) {
     /* Add styles specific to tablets and small laptops */
+    body {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
   }
   
   /* Laptop/Desktop */
   @media (min-width: 1025px) and (max-width: 1280px) {
     /* Add styles specific to laptops and medium-sized desktops */
+    body {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
   }
   
   /* Desktop (larger screens) */
   @media (min-width: 1281px) {
     /* Add styles specific to larger desktops */
+    body {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
   }
