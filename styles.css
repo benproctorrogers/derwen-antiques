@@ -72,30 +72,26 @@ footer {
 }
 
 #social-icons {
-    margin-left: 40px;
-}
-
-#social-icons ul {
     display: flex;
     justify-content: left;
-    padding: 0;
+    padding: 20px 0;
     list-style-type: none;
     width: 100%;
     margin-left: 40px;
     margin-right: 40px;
 }
 
-#social-icons a {
+#social-icons > a {
     color: #d7d9d3;
     text-decoration: underline;
 }
 
-#social-icons a:hover {
+#social-icons > a:hover {
     color: #e2c044;;
     text-decoration: none;
 }
 
-#social-icons a:focus {
+#social-icons > a:focus {
     color: #e2c044;;
     text-decoration: none;
 }
