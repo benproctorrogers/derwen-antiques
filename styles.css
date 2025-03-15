@@ -2,11 +2,8 @@
 body {
     margin: 0;
     padding: 0;
-    height: 100vh; /* 100% of the viewport height */
-    width: 100%;   /* 100% of the viewport width */
-    display: flex; /* Optional: if you want to center content vertically and horizontally */
-    justify-content: center; /* Optional: horizontally center content */
-    align-items: center; /* Optional: vertically center content */
+    height: 100vh;
+    width: 100%;
   }
 
 header {
@@ -15,4 +12,7 @@ header {
     color: white;
     text-align: center;
     padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
