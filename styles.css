@@ -58,7 +58,6 @@ nav a:hover {
 }
 
 main {
-    min-height: 100vh;
     grid-area: main;
 }
 
@@ -79,7 +78,6 @@ footer {
       'nav nav nav nav nav nav'
       'main main main main main main'
       'footer footer footer footer footer footer';
-      gap: 10px;
   }
 
 #title {
@@ -142,11 +140,6 @@ footer {
     }
 
     main {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    nav ul {
         margin-left: 20px;
         margin-right: 20px;
     }
