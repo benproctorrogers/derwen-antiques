@@ -16,6 +16,14 @@ header {
     background-color: #162521;
 }
 
+nav {
+
+}
+
+main {
+
+}
+
 /* Elements */
 #title {
     font-family: "Times New Roman", Times, serif;
@@ -24,3 +32,42 @@ header {
     font-size: 2.5em;
     margin-left: 20px;
 }
+
+/* Breakpoints */
+
+/* Mobile (small screens) */
+@media (max-width: 480px) {
+    /* Add styles specific to small screens here */
+    header {
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+        background-color: #162521;
+    }
+  }
+  
+  /* Mobile (larger screens) */
+  @media (min-width: 481px) and (max-width: 768px) {
+    /* Add styles specific to medium screens (tablets and larger phones) */
+    header {
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+        background-color: #162521;
+    }
+  }
+  
+  /* Tablet (portrait and small laptops) */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* Add styles specific to tablets and small laptops */
+  }
+  
+  /* Laptop/Desktop */
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    /* Add styles specific to laptops and medium-sized desktops */
+  }
+  
+  /* Desktop (larger screens) */
+  @media (min-width: 1281px) {
+    /* Add styles specific to larger desktops */
+  }
