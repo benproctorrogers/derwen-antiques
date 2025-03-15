@@ -59,6 +59,7 @@ nav a:hover {
 
 main {
     grid-area: main;
+    min-height: 50vh;
 }
 
 footer {
@@ -79,7 +80,6 @@ footer {
       'main main main main main main'
       'footer footer footer footer footer footer';
     grid-template-rows: 10% 10% 70% 10%;
-    height: 100vh;
   }
 
 #title {
