@@ -1,5 +1,5 @@
 /* Landmarks */
-body {
+html, body {
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -7,6 +7,8 @@ body {
     background-color: #d7d9d3;
     color: #1e2019;
     font-family: "Arial", Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -56,16 +58,15 @@ main {
 footer {
     background-color: #262a2c;
     color: #d7d9d3;
-    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
+    text-align: center;
 }
 
 /* Elements */
 #wrapper {
-    min-height: 100%;
-    position: relative;
+    flex: 1;
 }
 
 #title {
@@ -123,6 +124,14 @@ footer {
   /* Mobile (larger screens) */
   @media (min-width: 481px) and (max-width: 768px) {
     /* Add styles specific to medium screens (tablets and larger phones) */
+    body {
+        height: auto; /* Allow body to grow naturally */
+    }
+      
+    footer {
+        position: static; /* Footer won't be fixed to the bottom */
+    }
+    
     header {
         text-align: center;
     }
@@ -141,6 +150,14 @@ footer {
   /* Tablet (portrait and small laptops) */
   @media (min-width: 769px) and (max-width: 1024px) {
     /* Add styles specific to tablets and small laptops */
+    body {
+        height: auto; /* Allow body to grow naturally */
+    }
+      
+    footer {
+        position: static; /* Footer won't be fixed to the bottom */
+    }
+    
     main {
         margin-left: 40px;
         margin-right: 40px;
