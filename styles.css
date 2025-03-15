@@ -1,14 +1,21 @@
 /* Landmarks */
-html, body {
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
     margin: 0;
-    padding: 0;
+    padding: 0 0 6.75rem 0;
+    min-height: 100%;
     height: 100vh;
     width: 100%;
     background-color: #d7d9d3;
     color: #1e2019;
     font-family: "Arial", Helvetica, sans-serif;
-    display: flex;
-    flex-direction: column;
+    position: relative;
+    box-sizing: inherit;
+
 }
 
 header {
@@ -61,14 +68,11 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    text-align: absolute;
+    text-align: center;
+    position: absolute;
 }
 
 /* Elements */
-#wrapper {
-    flex: 1;
-}
-
 #title {
     font-family: "Times New Roman", Times, serif;
     letter-spacing: 0.2rem;
@@ -124,14 +128,6 @@ footer {
   /* Mobile (larger screens) */
   @media (min-width: 481px) and (max-width: 768px) {
     /* Add styles specific to medium screens (tablets and larger phones) */
-    body {
-        height: auto; /* Allow body to grow naturally */
-    }
-      
-    footer {
-        position: static; /* Footer won't be fixed to the bottom */
-    }
-    
     header {
         text-align: center;
     }
@@ -150,14 +146,6 @@ footer {
   /* Tablet (portrait and small laptops) */
   @media (min-width: 769px) and (max-width: 1024px) {
     /* Add styles specific to tablets and small laptops */
-    body {
-        height: auto; /* Allow body to grow naturally */
-    }
-      
-    footer {
-        position: static; /* Footer won't be fixed to the bottom */
-    }
-
     main {
         margin-left: 40px;
         margin-right: 40px;
