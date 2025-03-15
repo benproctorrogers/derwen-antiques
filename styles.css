@@ -81,17 +81,21 @@ footer {
     margin-right: 40px;
 }
 
-#social-icons > a {
+#social-icons li {
+    margin: 0 15px 0 0;
+}
+
+#social-icons a {
     color: #d7d9d3;
     text-decoration: underline;
 }
 
-#social-icons > a:hover {
+#social-icons a:hover {
     color: #e2c044;;
     text-decoration: none;
 }
 
-#social-icons > a:focus {
+#social-icons a:focus {
     color: #e2c044;;
     text-decoration: none;
 }
