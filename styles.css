@@ -17,7 +17,32 @@ header {
 }
 
 nav {
+    display: flex;
+    justify-content: center; /* Centers the nav horizontally */
+    align-items: center;     /* Aligns items vertically (if needed) */
+    background-color: #162521;
+    color: #e2c044;
+}
 
+nav ul {
+    display: flex;           /* Makes the list items horizontal */
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    margin: 0 15px;          /* Adds space between each list item */
+}
+
+nav a {
+    color: #e2c044;
+    text-decoration: none;
+    font-size: 1.5em;          /* Adjust font size as needed */
+}
+
+nav a:hover {
+    color: #ff6347; /* Change color on hover */
 }
 
 main {
