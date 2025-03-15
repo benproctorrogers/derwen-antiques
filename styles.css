@@ -52,7 +52,7 @@ nav a:hover {
 }
 
 main {
-    
+    min-height: 100vh;
 }
 
 footer {
@@ -61,7 +61,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    text-align: center;
+    text-align: absolute;
 }
 
 /* Elements */
@@ -157,7 +157,7 @@ footer {
     footer {
         position: static; /* Footer won't be fixed to the bottom */
     }
-    
+
     main {
         margin-left: 40px;
         margin-right: 40px;
