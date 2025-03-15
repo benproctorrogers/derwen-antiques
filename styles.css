@@ -1,1 +1,18 @@
-@import "tailwindcss";
+/* Landmarks */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* 100% of the viewport height */
+    width: 100%;   /* 100% of the viewport width */
+    display: flex; /* Optional: if you want to center content vertically and horizontally */
+    justify-content: center; /* Optional: horizontally center content */
+    align-items: center; /* Optional: vertically center content */
+  }
+
+header {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
