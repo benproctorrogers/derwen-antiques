@@ -6,6 +6,7 @@ body {
     width: 100%;
     background-color: #d7d9d3;
     color: #162521;
+    font-family: "Arial", Helvetica, sans-serif;
 }
 
 header {
@@ -15,7 +16,7 @@ header {
 }
 
 /* Elements */
-.title {
+#title {
     font-family: "Times New Roman", Times, serif;
     letter-spacing: 0.2rem;
     background-color: #162521;
