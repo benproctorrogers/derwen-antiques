@@ -5,7 +5,7 @@ body {
     height: 100vh;
     width: 100%;
     background-color: #d7d9d3;
-    color: #162521;
+    color: #1e2019;
     font-family: "Arial", Helvetica, sans-serif;
 }
 
@@ -13,15 +13,16 @@ header {
     width: 100%;
     text-align: left;
     padding: 20px 0;
-    background-color: #162521;
+    background-color: #262a2c;;
 }
 
 nav {
     display: flex;
     justify-content: center; /* Centers the nav horizontally */
     align-items: center;     /* Aligns items vertically (if needed) */
-    background-color: #162521;
+    background-color: #262a2c;
     color: #e2c044;
+    padding: 0 0 20px 0;
 }
 
 nav ul {
@@ -64,10 +65,7 @@ main {
 @media (max-width: 480px) {
     /* Add styles specific to small screens here */
     header {
-        width: 100%;
         text-align: center;
-        padding: 20px 0;
-        background-color: #262a2c;
     }
   }
   
@@ -75,10 +73,7 @@ main {
   @media (min-width: 481px) and (max-width: 768px) {
     /* Add styles specific to medium screens (tablets and larger phones) */
     header {
-        width: 100%;
         text-align: center;
-        padding: 20px 0;
-        background-color: #162521;
     }
   }
   
