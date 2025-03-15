@@ -18,7 +18,7 @@ header {
 
 nav {
     display: flex;
-    justify-content: center; /* Centers the nav horizontally */
+    justify-content: space-between; /* Centers the nav horizontally */
     align-items: center;     /* Aligns items vertically (if needed) */
     background-color: #262a2c;
     color: #e2c044;
