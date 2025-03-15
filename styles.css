@@ -55,6 +55,11 @@ main {
 footer {
     background-color: #262a2c;
     color: #d7d9d3;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-left: 40px;
 }
 
 /* Elements */
