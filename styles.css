@@ -108,6 +108,10 @@ h1, h2 {
     width: 100%;
 }
 
+.card-row {
+    margin-bottom: 2rem;
+}
+
 .card {
     width: 300px;
     background-color: #FAF9F6;
