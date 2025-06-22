@@ -150,6 +150,10 @@ h1, h2 {
     display: none;
 }
 
+.home-card.home-card-image-mobile {
+    display: inline;
+}
+
 .card-content {
     padding: 1rem;
     background-color: #FAF9F6;
@@ -288,5 +292,9 @@ a:focus {
     .home-card.home-card-image {
         display: inline;
     }
+
+    .home-card.home-card-image-mobile {
+    display: none;
+}
 }
 
