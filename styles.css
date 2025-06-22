@@ -119,6 +119,7 @@ h1, h2 {
 
 .home-cards {
     display: flex;
+    flex-direction: column;
     gap: 0;
     justify-content: center;
     width: 100%;
@@ -263,6 +264,10 @@ a:focus {
     .navigation {
         display: block;
     }
+
+    .home-cards {
+        flex-direction: row;
+    }
 }
 
 
@@ -283,6 +288,10 @@ a:focus {
 
     footer {
         padding: 2rem 8rem 2rem 8rem;
+    }
+
+    .home-cards {
+        flex-direction: row;
     }
 
     .card {
