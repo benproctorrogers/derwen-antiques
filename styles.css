@@ -97,6 +97,7 @@ header {
 }
 
 h1, h2 {
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
@@ -276,6 +277,19 @@ a:focus {
 
     .card-row {
         flex-direction: row;
+    }
+
+    h1, h2 {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
     }
 }
 
