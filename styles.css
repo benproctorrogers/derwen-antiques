@@ -102,6 +102,7 @@ h1, h2 {
 
 .cards {
     display: flex;
+    flex-direction: column;
     padding: 2rem 0;
     justify-content: center;
     width: 100%;
@@ -302,10 +303,6 @@ a:focus {
 
     .home-cards {
         flex-direction: row;
-    }
-
-    .cards {
-        flex-direction: column;
     }
 
     .card {
