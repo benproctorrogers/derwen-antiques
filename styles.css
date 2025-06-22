@@ -102,14 +102,15 @@ h1, h2 {
 
 .cards {
     display: flex;
-    gap: 2rem;
     padding: 2rem 0;
     justify-content: center;
     width: 100%;
 }
 
 .card-row {
-    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .card {
@@ -272,6 +273,10 @@ a:focus {
     .home-cards {
         flex-direction: row;
     }
+
+    .card-row {
+        flex-direction: row;
+    }
 }
 
 
@@ -300,6 +305,10 @@ a:focus {
 
     .card {
         flex-grow: 1;
+    }
+
+    .card-row {
+        flex-direction: row;
     }
 
     .home-card.home-card-image {
